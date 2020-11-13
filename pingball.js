@@ -37,11 +37,9 @@ this.render = function() {
     }
     this.delay=true
     this.time = Date.now()
-    console.log("Allo1")
     }
     else
     {
-        console.log("Allo")
         if(Date.now()-this.time>100)
         {
             this.delay=false
